@@ -4,7 +4,25 @@
 <head role="banner">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Nina Carducci, photographe professionnelle à Bordeaux">
+	<meta name="description"
+		content="Nina Carducci, photographe professionnelle à Bordeaux. Spécialisée en portraits, mariages, concerts et événements d'entreprise.">
+
+	<!-- OpenGraph Meta Tags (Facebook, LinkedIn, etc.) -->
+	<meta property="og:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
+	<meta property="og:description"
+		content="Photographe professionnelle à Bordeaux spécialisée dans les portraits, mariages, concerts et événements d'entreprise. Capturer vos moments les plus précieux.">
+	<meta property="og:image" content="https://ninacarducci.github.io/assets/images/nina.webp">
+	<meta property="og:url" content="https://ninacarducci.github.io/">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="fr_FR">
+	<meta property="og:site_name" content="Nina Carducci Photographe">
+
+	<!-- Twitter Card Meta Tags -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Nina Carducci - Photographe professionnelle à Bordeaux">
+	<meta name="twitter:description"
+		content="Photographe professionnelle à Bordeaux spécialisée dans les portraits, mariages, concerts et événements d'entreprise.">
+	<meta name="twitter:image" content="https://ninacarducci.github.io/assets/images/nina.webp">
 
 	<!-- Preconnect to external domains -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -66,14 +84,12 @@
 				</div>
 			</div>
 			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-				data-bs-slide="prev">
+				data-bs-slide="prev" aria-label="Image précédente">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
 			</button>
 			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-				data-bs-slide="next">
+				data-bs-slide="next" aria-label="Image suivante">
 				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
 			</button>
 		</div>
 	</div>
@@ -219,7 +235,27 @@
 					alt="Appareil photo professionnel" width="420" height="420" loading="lazy">
 			</div>
 		</div>
-		<footer role="contentinfo">
+		<footer role="contentinfo" itemscope itemtype="https://schema.org/LocalBusiness">
+			<meta itemprop="name" content="Nina Carducci Photographe">
+			<meta itemprop="image" content="https://ninacarducci.github.io/assets/images/nina.webp">
+			<meta itemprop="url" content="https://ninacarducci.github.io/">
+			<meta itemprop="telephone" content="05 56 67 78 89">
+			<meta itemprop="priceRange" content="€€">
+			<div itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
+				<meta itemprop="streetAddress" content="68 avenue Alsace-Lorraine">
+				<meta itemprop="addressLocality" content="Bordeaux">
+				<meta itemprop="postalCode" content="33200">
+				<meta itemprop="addressCountry" content="FR">
+			</div>
+			<div itemprop="openingHoursSpecification" itemscope itemtype="https://schema.org/OpeningHoursSpecification">
+				<meta itemprop="dayOfWeek" content="Monday">
+				<meta itemprop="dayOfWeek" content="Tuesday">
+				<meta itemprop="dayOfWeek" content="Wednesday">
+				<meta itemprop="dayOfWeek" content="Thursday">
+				<meta itemprop="dayOfWeek" content="Friday">
+				<meta itemprop="opens" content="10:00">
+				<meta itemprop="closes" content="19:00">
+			</div>
 			<p>© Nina Carducci - Tous droits réservés</p>
 		</footer>
 	</div>
